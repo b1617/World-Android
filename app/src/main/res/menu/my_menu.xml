@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/europe"
+        android:title="Europe" />
+    <item
+        android:id="@+id/afirca"
+        android:title="Africa"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/asie"
+        android:title="Asia"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/oceania"
+        android:title="Oceania"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/america"
+        android:title="America"
+        app:showAsAction="never" />
+    <padding
+        android:left="30dp"
+        android:right="30dp"
+        android:top="30dp"
+        android:bottom="30dp" />
+
+</menu>
